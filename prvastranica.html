@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/2604d1c2ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="prvastranica.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasushi</title>
+    <link rel="icon" type="image/x-icon" href="pokusaj images/ice-cube.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="icon">
+                    <img src="images/msg6390605977-4693.000003-removebg-preview.png">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="ime">
+                    Gaffee
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="lista">
+                    <ul>
+                        <li><a href="about.html" id="login"><i class="fa-solid fa-user" id="icons"></i>Login</a></li>
+                        <li><a href="projekti.html" id="menu">Menu</a></li>
+                        <li><a href="service.html" id="reservations">Reservations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+            <div class="col-md-6">
+                <div class="name1">Cafe & Restaurant Est. 2035</div>
+                <div class="slogan">Your Go-to Spot for Delicious Eats & Coffee</div>
+            </div>
+            <div class="col-md-4">
+                <div class="linkovi">
+                <div class="prvi">
+                    <a href="">
+                    Order Online
+                </a>
+                </div>
+                <div class="drugi">
+                    <a href="">
+                    Our Menu
+                    </a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+
+    </div>
+    <div class="container2">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="cijelo">
+                <div class="eat">
+                    Eat.
+                </div>
+                <div class="breakfest">
+                    Breakfast, Lunch and Artisanal Pastries
+                </div>
+                <div class="paragraph">
+                    I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                </div>
+                <div class="more">
+                    <a href="">
+                   See more 
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+            <div class="col-md-4">
+                <div class="slika1">
+                    <img src="images/image-1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="slika1">
+                    <img src="images/image-1.jpg" alt="Descriptive Alt Text" style="width: 100%; height: auto;">
+                </div>
+            </div>
+
+            <div class="col-md-4 offset-md-4">
+                <div class="cijelo2">
+                    <div class="eat">Eat.</div>
+                    <div class="breakfest">Breakfast, Lunch and Artisanal Pastries</div>
+                    <div class="paragraph">
+                        I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                    </div>
+                    <div class="more"><a href="">See more</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="cijelo">
+                <div class="eat">
+                    Eat.
+                </div>
+                <div class="breakfest">
+                    Breakfast, Lunch and Artisanal Pastries
+                </div>
+                <div class="paragraph">
+                    I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
+                </div>
+                <div class="more">
+                    <a href="">
+                   See more 
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+            <div class="col-md-4">
+                <div class="slika1">
+                    <img src="images/image-1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="gallery" class="container">
+        <button id="prev" onclick="changeSlide(-1)">❮ Prev</button>
+        <img src="images/image3.jpg" alt="Gallery Image 1" class="gallery-img">
+        <img src="images/image4.jpg" alt="Gallery Image 2" class="gallery-img">
+        <img src="images/image5.jpg" alt="Gallery Image 3" class="gallery-img">
+        <img src="images/image6.jpg" alt="Gallery Image 4" class="gallery-img">
+        <img src="images/image7.jpg" alt="Gallery Image 5" class="gallery-img">
+        <button id="next" onclick="changeSlide(1)">Next ❯</button>
+    </div>
+    <div id="popup" style="display:none;">
+        <img src="" alt="Popup Image" id="popup-img">
+    </div>
+    
+    
+    <script src="prvastranica.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
